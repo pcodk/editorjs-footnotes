@@ -3,7 +3,7 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "outDir": "./dist/",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "sourceMap": true,
     "module": "es6",
     "target": "es5",

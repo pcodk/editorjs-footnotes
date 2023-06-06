@@ -3,7 +3,7 @@
   "homepage": "https://github.com/jakekara/editorjs-footnotes/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakekara/editorjs-footnotes"
+    "url": "https://github.com/pcodk/editorjs-footnotes"
   },
   "bugs": {
     "url": "https://github.com/jakekara/editorjs-footnotes/issues"
@@ -19,7 +19,9 @@
   },
   "main": "./dist/main",
   "dependencies": {
-    "@editorjs/paragraph": "^2.7.0"
+    "@editorjs/paragraph": "^2.7.0",
+    "codex-notifier": "^1.1.2",
+    "codex-tooltip": "^1.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
