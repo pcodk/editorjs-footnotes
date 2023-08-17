@@ -1,6 +1,6 @@
 import Paragraph from '@editorjs/paragraph'
 import { API, BlockToolData, EditorConfig } from '@editorjs/editorjs'
-import styles from "./TypedParagraph.css"
+import * as styles from "./TypedParagraph.css"
 
 type ParagraphType = "paragraph" | "blockquote"
 

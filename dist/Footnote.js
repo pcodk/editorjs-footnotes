@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 import Paragraph from '@editorjs/paragraph';
 import { FootnoteMaker } from './FootnoteMaker';
 import { generateID } from './generateID';
-import styles from './style.css';
+import * as styles from './style.css';
 var Footnote = /** @class */ (function (_super) {
     __extends(Footnote, _super);
     function Footnote(opts) {

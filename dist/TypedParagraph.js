@@ -25,7 +25,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import Paragraph from '@editorjs/paragraph';
-import styles from "./TypedParagraph.css";
+import * as styles from "./TypedParagraph.css";
 var TypedParagraph = /** @class */ (function (_super) {
     __extends(TypedParagraph, _super);
     function TypedParagraph(opts) {
