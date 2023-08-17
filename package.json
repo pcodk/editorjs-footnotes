@@ -18,7 +18,7 @@
     "watch": "webpack --watch",
     "test": "jest --verbose",
     "prettify": "prettier --conifg .prettierrc --write src",
-    "copy-files": "cp -r ./src/style.css ./src/TypedParagraph.css ./dist/"
+    "copy-files": "cp -r ./src/style.css ./src/TypedParagraph.css ./src/style.css.d.ts ./src/TypedParagraph.css.d.ts ./dist/"
   },
   "main": "./dist/main",
   "dependencies": {
