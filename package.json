@@ -12,10 +12,13 @@
   "version": "0.0.4-alpha",
   "types": "index.d.ts",
   "scripts": {
+    "build-with-css": "npm run clean && tsc && npm run copy-files",
+    "clean": "rm -rf ./dist",
     "build": "webpack",
     "watch": "webpack --watch",
     "test": "jest --verbose",
-    "prettify": "prettier --conifg .prettierrc --write src"
+    "prettify": "prettier --conifg .prettierrc --write src",
+    "copy-files": "cp -r ./src/style.css ./dist/"
   },
   "main": "./dist/main",
   "dependencies": {

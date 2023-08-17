@@ -1,2 +1,7 @@
 node_modules/
 package-lock.json
+/.idea/deployment.xml
+/.idea/php.xml
+/.idea/vcs.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/codeStyles/Project.xml
